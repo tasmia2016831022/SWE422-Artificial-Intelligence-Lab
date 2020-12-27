@@ -1,0 +1,49 @@
+p {
+    top:10%;
+    font-size: 500%;
+    background:transparent;
+  }
+  .dots{
+  display:inline-block;
+    background:red;
+    height:80px;
+    width:80px;
+    float: left;
+    border: 10px solid #333;
+  }
+  .dots2{
+    display:inline-block;
+    background: blue;
+    height:80px;
+    width:80px;
+    float: right;
+  }
+  
+  .options{
+    height:100px;
+    width: 220px;
+    z-index:2;
+  }
+  
+  td {
+  border: 5px solid #333;
+  height: 60px;
+  width: 60px;
+  visibility: hidden;
+  }
+  
+  table{
+    position:absolute;
+    left:50%;
+    margin-left:-90px;
+    top:10%;
+    z-index:1;
+  }
+  .main{
+    width:100vw;
+    height:100vh;
+    background: white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }

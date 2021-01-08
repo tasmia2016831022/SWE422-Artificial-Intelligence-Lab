@@ -3,28 +3,6 @@ p {
     font-size: 500%;
     background:transparent;
   }
-  .dots{
-  display:inline-block;
-    background:red;
-    height:80px;
-    width:80px;
-    float: left;
-    border: 10px solid #333;
-  }
-  .dots2{
-    display:inline-block;
-    background: blue;
-    height:80px;
-    width:80px;
-    float: right;
-  }
-  
-  .options{
-    height:100px;
-    width: 220px;
-    z-index:2;
-  }
-  
   td {
   border: 5px solid #333;
   height: 60px;
@@ -36,7 +14,7 @@ p {
     position:absolute;
     left:50%;
     margin-left:-90px;
-    top:10%;
+    top:30%;
     z-index:1;
   }
   .main{
